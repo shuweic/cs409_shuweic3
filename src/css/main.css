@@ -1,1 +1,70 @@
-/* Your CSS here. */
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container */
+.card {
+  background-color: #f0f8ff;
+  border: 2px solid #4a90e2;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #4a90e2;
+}
+
+/* Heading styles */
+h1 {
+  color: #2c3e50;
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+h2 {
+  color: #4a90e2;
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Paragraph styling */
+p {
+  color: #555;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: left;
+}
+
+/* Link styling */
+a {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #357abd;
+}
